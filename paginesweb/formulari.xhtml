@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+    comentaris externs
+-->
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Formulari</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../css/formulari.css"/>
+    </head>
+<body>
+<h1 style="color: darkgreen;text-align: center">Curriculum</h1>
+
+
+<form action="form.html" method="POST">
+<fieldset style="background-color: rgb(255, 129, 87);" >
+<legend style="text-decoration-line: underline; font-weight: bold; font-style: italic;  color: dodgerblue;">Información Basica</legend>
+
+<label for="">Nombre</label> <br/> <br/>
+<input type="text" placeholder="tunombre" /> <br/> <br/>
+<label for="">Altura en centimetros</label> <br/> <br/>
+<input type="number" min="100" max="300"/><br/> <br/>
+<label for="">email</label> <br/> <br/>
+<input type="email" placeholder="tuemail@dominio.con" /> <br/> <br/>
+<label for="">Fecha Nacimiento:</label> <br/> <br/>
+<input type="date"/> <br/> <br/>
+
+</fieldset>
+<br/>
+<fieldset style="background-color:rgb(121, 255, 127);">
+
+        <legend style="text-decoration-line: underline; font-weight: bold; font-style: italic;  color: rgb(255, 94, 30);">Nacionalidad</legend>
+
+<input type="radio" name="n"/><label for="">Española</label>
+<input type="radio" name="n"/><label for="">Comunitario(UE)</label>
+<input type="radio" name="n"/><label for="">No comunitario</label>
+</fieldset>
+<br/>
+<fieldset style="background-color: lightpink;">
+        <legend >Estudios</legend>
+<select name="" id="">
+    <option value="">GM</option>
+    <option value="">GS</option>
+    <option value="">Master</option>
+</select>
+
+</fieldset>
+
+<br/>
+<fieldset style="background-color: lightskyblue;">
+        <legend style="text-decoration-line:underline; font-weight: bold; font-style: italic;  color: rgb(255, 0, 0);">Idiomas</legend>
+<input type="checkbox"/><label for="">Catalán</label>
+<input type="checkbox"/><label for="">Catellano</label>
+<input type="checkbox"/><label for="">Ingles</label>
+<input type="checkbox"/><label for="">Chino</label>
+
+
+
+
+
+</fieldset>
+<br/>
+<fieldset style="background-color: darkgrey;"><input type="submit" value="Enviar"/><input type="reset" value="Cancelar"/></fieldset>
+
+</form>
+
+
+
+
+</body>
+</html>
