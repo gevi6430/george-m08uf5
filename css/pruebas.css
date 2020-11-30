@@ -1,0 +1,84 @@
+body{
+
+background-color: rgb(49, 49, 49);
+
+}
+h1{
+
+    color: rgb(255, 208, 0);
+    font-size: 2cm;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p{
+font-size: 1cm;
+color: rgb(255, 0, 0);
+font-weight: bold;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.f{
+color: rgb(255, 236, 130);
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+margin-left: 5cm;
+
+}
+
+#home{
+
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+   
+
+}
+
+#home2{
+
+height: 20%;
+width: 30%;
+
+}
+
+#home3{
+
+    height: 20%;
+    width: 30%;
+    margin-left: 15cm;
+
+}
+
+table, td{
+border-collapse: collapse;
+border-color: aliceblue;
+border-width: 2px;
+border-style: solid;
+
+}
+td{
+
+color: blanchedalmond;
+
+
+}
+
+#tabla1{
+
+color: aliceblue;
+
+
+}
+th{
+
+    background-color: blue;
+}
+#colorrojo{
+
+color: brown;
+
+}
